@@ -1,0 +1,15 @@
+{
+  "name": "turbopack-sw-guard-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "build:webpack": "next build --webpack",
+    "start": "next start",
+    "check": "node check-chunks.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}
